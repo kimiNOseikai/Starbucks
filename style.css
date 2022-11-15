@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
 
 :root {
     --color--primary :#006241;
@@ -188,6 +188,84 @@ img{
     justify-content: center;
     padding: 32px 0;
 }
+/* Footer */
+footer{
+    box-shadow: 0 -1px 3px rgb(0 0 0 / 10%), 0 -2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+    padding: 1.5rem 2.5rem;
+}
+
+footer a:hover{
+    color: #000;
+}
+foooter h5{
+    font-weight: 400;
+    color: rgba(0,0,0,.87);
+}
+footer img{
+    height: 30px;
+    width: 30px;
+}
+/* Top */
+.footer-top{
+    display: flex;
+}
+.footer-top .column{
+    width: 190px;
+    max-width: 190px;
+}
+.footer-top a{
+    text-decoration: none;
+    color: rgba(0,0,0,.58);
+}
+/* Bottom */
+.footer-bottom{
+
+}
+.footer-bottom ul{
+    display: flex;
+}
+.footer-bottom ul:first-child li{
+    min-width: 44px;
+    min-height: 44px;
+}
+
+.footer-bottom ul:last-child{
+    margin: 16px 0 4px 0;
+}
+.footer-bottom ul:last-child a{
+    text-decoration: none;
+}
+.footer-bottom ul:last-child a:hover{
+    text-decoration: underline;
+}
+
+.footer-bottom a:hover{
+    cursor: pointer;
+    transform: scale(1);
+    fill: rgba(0,0,0,.58);
+    
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    padding: 16px 0;
+    color: rgba(0,0,0,.58);
+    margin: 0;
+}
+
+.footer-bottom span{
+    background-color:rgba(0,0,0,.58);
+    height: auto;
+    width: 1.1px;
+}
+/* Rule */
+.rule{
+    width: 100%;
+    height: 1px;
+    border: none;
+    background-color: #ccc;
+    margin: 32px auto;
+}
 /* Background */
 .bg-primary{
     background-color: var(--color-secondary);
@@ -237,7 +315,13 @@ img{
 
 .text-small{
     font-size: 19px;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
+    font-weight: 500;
+}
+
+.text-middle-small{
+    font-size: 16px; 
+    margin-bottom: 8px;
 }
 
 .text-xs{
@@ -249,15 +333,25 @@ img{
 .py-sm{
     padding: 10px 0;
 }
-
 .py-md{
     padding: 20px 0;
 }
-
 .py-lg{
     padding: 40px 0;
 }
-
+.px-16{
+    padding: 0 16px;
+}
+.pr-8{
+    padding-right: 8px;
+}
+/* Margin */
+.ml-2{
+    margin-left: 2rem;
+}
+.mx-1{
+    margin: 0 1rem;
+}
 /* Grid Styles */
 .grid-col-2{
     display: grid;
