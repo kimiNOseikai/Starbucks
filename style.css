@@ -158,6 +158,10 @@ img{
     background-color: rgba(30,57,50,.1);
 }
 
+/* Container */
+nav.container {
+    margin-top: 32px;
+}
 /* Box */
 .box{
     margin-bottom: 32px;
