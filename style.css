@@ -212,10 +212,11 @@ footer img{
 /* Top */
 .footer-top{
     display: flex;
+    justify-content: space-evenly;
 }
-.footer-top .column{
+.footer-top .footer-item{
     width: 190px;
-    max-width: 190px;
+    max-width: 190px;  
 }
 .footer-top a{
     text-decoration: none;
@@ -348,13 +349,6 @@ footer img{
 }
 .pr-8{
     padding-right: 8px;
-}
-/* Margin */
-.ml-2{
-    margin-left: 2rem;
-}
-.mx-1{
-    margin: 0 1rem;
 }
 /* Grid Styles */
 .grid-col-2{
